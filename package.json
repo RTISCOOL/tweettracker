@@ -1,0 +1,26 @@
+{
+  "name": "tweettracker",
+  "version": "1.0.0",
+  "description": "Tracks a users tweets using the twitter API and outputs every time they tweet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RTISCOOL/tweettracker.git"
+  },
+  "keywords": [
+    "Twitter",
+    "tweet",
+    "tracker",
+    "tweet",
+    "stream"
+  ],
+  "author": "Ryan Trattner (github.com/RTISCOOL)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RTISCOOL/tweettracker/issues"
+  },
+  "homepage": "https://github.com/RTISCOOL/tweettracker#readme"
+}
