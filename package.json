@@ -1,6 +1,6 @@
 {
   "name": "tweettracker",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Tracks a users tweets using the twitter API and outputs every time they tweet",
   "main": "index.js",
   "scripts": {
@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/RTISCOOL/tweettracker/issues"
   },
-  "homepage": "https://github.com/RTISCOOL/tweettracker#readme"
+  "homepage": "https://github.com/RTISCOOL/tweettracker#readme",
+  "dependencies": {
+    "twitter-api-v2": "^1.12.5"
+  }
 }

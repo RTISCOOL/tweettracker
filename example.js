@@ -1,8 +1,7 @@
 var bearer_token = "YOUR TWITTER API BEARER TOKEN";
+var TweetTracker = require("tweettracker");
 
-var tweettracker = TweetTracker(bearer_token);
-
-var tracker = tweettracker.track("jack" /*USERNAME*/, {
+var tracker = TweetTracker(bearer_token).track("jack" /*USERNAME*/, {
   interval: 5000, // defaults to 10 seconds.
   emitLatest: true, // emit the latest tweet when the stream starts
 });
