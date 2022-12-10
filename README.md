@@ -43,6 +43,7 @@ Object that is returned in the event handler
     name: (STRING , user name),
     username: (STRING , user username),
     profile_image_url: (STRING , user profile image url),
+    url: (STRING, tweet url),
 }
 ```
 
