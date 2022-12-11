@@ -51,6 +51,7 @@ var TweetTracker = function (bearer_token) {
       tweet.username = user.username;
       tweet.profile_image_url = user.profile_image_url;
       tweet.userID = user.id;
+      tweet.url = `https://twitter.com/${tweet.username}/status/${tweet.id}`
       tweets.push(tweet);
       if (tweets.length == 5) {
         break;
